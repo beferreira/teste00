@@ -1,0 +1,41 @@
+.del {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
+    .id{
+        margin: 40px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    input {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        font: 500 16px 'Arial';
+    }
+        
+    button {    
+        width: 7%;
+        font: 400 14px Arial;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: red;
+        color: #fff;
+    }   
+}

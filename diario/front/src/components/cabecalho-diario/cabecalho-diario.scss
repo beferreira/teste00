@@ -1,0 +1,21 @@
+.cabecalho{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px;
+
+    nav{
+        display: flex;
+        gap: 50px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        font: 600 30px 'Arial';
+    }
+
+    .voltar{
+        color: rgb(0, 0, 0);
+    }
+}
